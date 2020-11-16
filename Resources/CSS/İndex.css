@@ -1,0 +1,134 @@
+body {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(19, 1fr);
+    grid-template-areas: 
+    "navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation"
+    "logo logo header-ad header-ad header-ad header-ad header-ad header-ad header-ad header-ad"
+    "logo logo header-ad header-ad header-ad header-ad header-ad header-ad header-ad header-ad"
+    "logo logo header-ad header-ad header-ad header-ad header-ad header-ad header-ad header-ad"
+    "content content content content content content content sidebar-ad sidebar-ad sidebar-ad"
+    "content content content content content content content sidebar-ad sidebar-ad sidebar-ad"
+    "content content content content content content content facebook-box facebook-box facebook-box"
+    "content content content content content content content facebook-box facebook-box facebook-box"
+    "content content content content content content content latest-blogs latest-blogs latest-blogs"
+    "content content content content content content content latest-blogs latest-blogs latest-blogs"
+    "content content content content content content content secondary-links secondary-links secondary-links"
+    "content content content content content content content secondary-links secondary-links secondary-links"
+    "content content content content content content content game-link game-link game-link"
+    "content content content content content content content game-link game-link game-link"
+    "content content content content content content content contact-link contact-link contact-link"
+    "content content content content content content content contact-link contact-link contact-link"
+    "content content content content content content content tutorials tutorials tutorials"
+    "content content content content content content content tutorials tutorials tutorials"
+    "footer footer footer footer footer footer footer footer footer footer";
+
+}
+
+.navigation {
+    grid-area: navigation;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.header-ad {
+    grid-area: header-ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.sidebar-ad {
+    grid-area: sidebar-ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.facebook-box {
+    grid-area: facebook-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.latest-blogs {
+    grid-area: latest-blogs;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.secondary-links {
+    grid-area: secondary-links;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.game-link {
+    grid-area: game-link;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.contact-link {
+    grid-area: contact-link;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.tutorials {
+    grid-area: tutorials;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6c70;
+}
